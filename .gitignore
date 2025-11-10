@@ -1,0 +1,30 @@
+# 環境ファイル（ローカル専用）
+.env
+.env.*
+!.env.example
+!.env.testing.example
+
+# Composer
+/vendor/
+
+# PHPUnitキャッシュ・カバレッジ
+.phpunit.cache/
+coverage-html/
+
+# ログファイル
+app/log/
+
+# エディタ・OS系
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# キャッシュ
+/storage/cache
+
+# その他
+progress.txt
+cleanup_public.sh
+README.md
+README.*
